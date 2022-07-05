@@ -1,0 +1,184 @@
+	
+:root {
+  --ad-color-black: #000000;
+  --ad-color-white: #ffffff;
+  --ad-color-blue: #007bc6;
+  --ad-color-grey-100: #e9ecef;
+  --ad-color-grey-400: #d3d7da;
+  --ad-color-grey-700: #767677;
+  --ad-color-red: #e32b2b;
+  --ad-color-orange: #d98916;
+  --ad-color-green: #00aa55;
+  --ad-color-gold: #8a7442;
+  --ad-color-offwhite: #f5f5e5;
+  --ad-color-tracekhaki: #a39582;
+  --ad-color-tracemaroon: #b56971;
+  --ad-color-ashgreen: #a7c1b9;
+  --ad-color-rawgrey: #6d8194;
+  --ad-color-legendink: #3a3e4f;
+  --ad-color-shockyellow: #ede734;
+  --ad-color-shockpink: #da1a7b;
+  --ad-color-brightblue: #0071ae;
+  --ad-color-hiresaqua: #00a2a2;
+  --ad-color-shocklime: #2ada71;
+  --ad-color-yeezyblack: #282c31;
+  --ad-color-yeezyoffwhite: #ecebdf;
+  --ad-color-looppink: #d92f4c;
+  --ad-color-loopdarkpink: #b6223c;
+  --ad-color-transparent: rgba(255, 255, 255, 0);
+  --ad-color-black-070: rgba(0, 0, 0, 0.7);
+  --ad-color-brand-p1: #000000;
+  --ad-color-brand-p2: #ffffff;
+  --ad-color-brand-p3: #007bc6;
+  --ad-color-membership-s1: #8a7442;
+  --ad-color-membership-s2: #a39582;
+  --ad-color-membership-s3: #a7c1b9;
+  --ad-color-membership-s4: #b56971;
+  --ad-color-membership-s5: #6d8194;
+  --ad-color-neutral-s1: #f5f5e5;
+  --ad-color-neutral-s2: #a39582;
+  --ad-color-neutral-s3: #b56971;
+  --ad-color-neutral-s4: #a7c1b9;
+  --ad-color-neutral-s5: #6d8194;
+  --ad-color-neutral-s6: #3a3e4f;
+  --ad-color-bright-s1: #ede734;
+  --ad-color-bright-s2: #e32b2b;
+  --ad-color-bright-s3: #da1a7b;
+  --ad-color-bright-s4: #0071ae;
+  --ad-color-bright-s5: #00a2a2;
+  --ad-color-bright-s6: #2ada71;
+  --ad-color-franchise-s1: #282c31;
+  --ad-color-franchise-s2: #ecebdf;
+  --ad-color-franchise-s3: #d92f4c;
+  --ad-color-franchise-s4: #b6223c;
+  --ad-color-background: #ffffff;
+  --ad-color-background-inverse: #000000;
+  --ad-color-background-alternative: #e9ecef;
+  --ad-color-background-disabled: #767677;
+  --ad-color-background-membership: #8a7442;
+  --ad-color-background-membership-hover: #8a7442;
+  --ad-color-background-alternative-hover: #ffffff;
+  --ad-color-background-highlight: #ede734;
+  --ad-color-background-alternative-highlight: #2ada71;
+  --ad-color-sale-background: #e32b2b;
+  --ad-color-background-transparent: rgba(255, 255, 255, 0);
+  --ad-color-border-alternative-inverse: rgba(255, 255, 255, 0);
+  --ad-color-border-inverse: #000000;
+  --ad-color-border-alternative: #ffffff;
+  --ad-color-border-hover: #000000;
+  --ad-color-border-active: #000000;
+  --ad-color-border-alternative-active: #000000;
+  --ad-color-border-navigational: #d3d7da;
+  --ad-color-border-navigational-inverse: #ffffff;
+  --ad-color-border-navigational-hover: #767677;
+  --ad-color-border-functional: #767677;
+  --ad-color-border-disabled: #767677;
+  --ad-color-error-border: #e32b2b;
+  --ad-color-success-border: #00aa55;
+  --ad-color-border-membership: #8a7442;
+  --ad-color-border-membership-inverse: #8a7442;
+  --ad-color-border-membership-hover: #8a7442;
+  --ad-color-disabled: #767677;
+  --ad-color-error: #e32b2b;
+  --ad-color-icon: #000000;
+  --ad-icon-color-inverse: #ffffff;
+  --ad-icon-color-hover: #767677;
+  --ad-icon-color-error: #e32b2b;
+  --ad-icon-color-success: #00aa55;
+  --ad-color-success: #00aa55;
+  --ad-color-text: #000000;
+  --ad-color-text-alternative: #767677;
+  --ad-color-text-inverse: #ffffff;
+  --ad-color-text-disabled: #767677;
+  --ad-color-text-hover: #767677;
+  --ad-color-text-hover-alternative: #767677;
+  --ad-color-error-text: #e32b2b;
+  --ad-color-success-text: #00aa55;
+  --ad-color-text-membership: #8a7442;
+  --ad-color-sale-text: #e32b2b;
+  --ad-color-warning: #d98916;
+  --ad-overlay-color-background: rgba(0, 0, 0, 0.7);
+  --ad-placeholder-color-text: #767677;
+  --ad-button-background-hover: #000000;
+  --ad-button-color-border-primary-inverse: #ffffff;
+  --ad-button-color-border-primary: #000000;
+  --ad-button-color-border-secondary-inverse: #ffffff;
+  --ad-button-color-border-secondary: #000000;
+  --ad-button-color-border-secondary-hover: #000000;
+  --ad-button-color-border-secondary-hoverinverse: #ffffff;
+  --ad-callout-color-background: #e9ecef;
+  --ad-callout-color-background-alternative: #f5f5e5;
+  --ad-callout-color-border-urgent: rgba(255, 255, 255, 0);
+  --ad-callout-color-background-veryurgent: #000000;
+  --ad-dropdown-color-background-hover: #e9ecef;
+  --ad-label-color-text: #767677;
+  --ad-productcard-media-color-background: #e9ecef;
+  --ad-timer-color-background: rgba(255, 255, 255, 0);
+  --ad-timer-color-progress-background: #767677;
+  --ad-tooltip-color-background: #e9ecef;
+  --ad-app-icon-color-deselected: #d3d7da;
+  --ad-app-color-text-deselected: #d3d7da;
+  --ad-app-color-text-deselected-inverse: #767677;
+  --ad-app-button-color-background: #000000;
+  --ad-app-button-color-background-inverse: #ffffff;
+  --ad-app-button-color-background-disabled: #d3d7da;
+  --ad-app-button-color-background-disabled-inverse: #767677;
+  --ad-app-button-color-border: #000000;
+  --ad-app-button-color-border-deselected: #d3d7da;
+  --ad-app-button-color-border-inverse: #ffffff;
+  --ad-app-button-color-border-deselected-inverse: #767677;
+  --ad-app-callout-color-background-inverse: #ffffff;
+  --ad-app-divider-color: #d3d7da;
+  --ad-app-divider-color-inverse: #767677;
+  --ad-app-badge-color-background: #ffffff;
+  --ad-app-badge-color-background-inverse: #000000;
+  --ad-app-badge-color-sale: #e32b2b;
+  --ad-app-badge-color-warning: #d98916
+}
+
+	
+:root {
+  --ad-motion-duration-none: 0.00s;
+  --ad-motion-duration: 0.30s;
+  --ad-motion-duration-slow: 0.70s;
+  --ad-motion-easing: cubic-bezier(0.3, 0, 0, 1);
+  --ad-motion-duration-all: 0.30s;
+  --ad-motion-easing-all: cubic-bezier(0.3, 0, 0, 1);
+  --ad-animation-motion-duration-loading: 0.70s;
+  --ad-motion-duration-transform: 0.30s;
+  --ad-motion-easing-transform: cubic-bezier(0.3, 0, 0, 1);
+  --ad-motion-duration-transform-press: 0.30s;
+  --ad-motion-easing-transform-press: cubic-bezier(0.3, 0, 0, 1);
+  --ad-motion-duration-textcolor: 0.30s;
+  --ad-motion-easing-textcolor: cubic-bezier(0.3, 0, 0, 1);
+  --ad-icon-motion-duration-color: 0.30s;
+  --ad-icon-motion-easing-color: cubic-bezier(0.3, 0, 0, 1);
+  --ad-motion-duration-backgroundcolor: 0.30s;
+  --ad-motion-easing-backgroundcolor: cubic-bezier(0.3, 0, 0, 1);
+  --ad-motion-duration-opacity: 0.30s;
+  --ad-motion-easing-opacity: cubic-bezier(0.3, 0, 0, 1);
+  --ad-motion-duration-bordercolor: 0.30s;
+  --ad-motion-easing-bordercolor: cubic-bezier(0.3, 0, 0, 1)
+}
+
+	
+:root {
+  --ad-web-shadow-textshadow-1: 1px 1px 0px rgba(255, 255, 255, 1);
+  --ad-web-shadow-textshadow-inverse-1: 1px 1px 0px rgba(0, 0, 0, 1);
+  --ad-app-shadow-textshadow-inverse-1: 3px 3px 0px rgba(0, 0, 0, 1)
+}
+	
+:root {
+  --ad-spacing-0000: 0px;
+  --ad-spacing-0050: 5px;
+  --ad-spacing-0100: 10px;
+  --ad-spacing-0150: 15px;
+  --ad-spacing-0200: 20px;
+  --ad-spacing-0300: 30px;
+  --ad-spacing-0400: 40px;
+  --ad-spacing-0600: 60px;
+  --ad-spacing-0800: 80px;
+  --ad-spacing-1000: 100px;
+  --ad-spacing-1200: 120px;
+  --ad-spacing-1500: 150px
+}

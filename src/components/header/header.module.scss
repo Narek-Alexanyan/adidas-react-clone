@@ -1,0 +1,29 @@
+@import "../../assets/styles/scss-variables";
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.headerInfo {
+ background-color: var(--ad-color-black);
+ color: var(--ad-color-white);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: var(--ad-spacing-0300);
+ &__content {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  &_item {
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--ad-color-white);
+    font-size: 0.688rem;
+    line-height: 0.938rem;
+  }
+ }
+}
